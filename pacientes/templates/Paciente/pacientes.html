@@ -4,17 +4,19 @@
 <div class="content">
     <div class="">
         <div class="page-header-title">
-            <h4 class="page-title">Listado de activos fijos!</h4>
+            <h4 class="page-title">Listado de pacientes fijos!</h4>
             <!--- 
             <div style="text-align:right;">
                 <button type="button" class="btn btn-success waves-effect waves-light"
-                        onClick=" window.location.href='/activocreate' " style="text-align:center;">+
+                        onClick=" window.location.href='/pacientecreate' " style="text-align:center;">+
                 </button>
             </div>
             --->
         </div>
     </div>
 
+    <br>
+    
     <br>
 
     <div class="page-content-wrapper">
@@ -26,24 +28,30 @@
                     <table class="table table-hover">
                         <thead>
                         <tr style="color:#0E2EB0">
-                            <th font color="red">Variable</th>
+                            <th font color="red">-</th>
                             <th>Nombre</th>
-                            <th>Valor</th>
-                            <th>Unit</th>
-                            <th>Cantidad</th>
+                            <th>Edad</th>
+                            <th>Identificación</th>
+                            <th>Género</th>
+                            <th>Estatura</th>
+                            <th>Peso</th>
+                            <th>Rh</th>
                             <th>Date Time</th>
                         </tr>
                         </thead>
                         <tbody>
 
-                        {% for activo in activo_list %}
+                        {% for paciente in paciente_list %}
                         <tr>
-                            <td>{{ activo.variable.name }}</td>
-                            <td>{{ activo.nombre }}</td>
-                            <td>{{ activo.valor }}</td>
-                            <td>{{ activo.unit }}</td>
-                            <td>{{ activo.cantidad }}</td>
-                            <td>{{ activo.dateTime }}</td>
+                            <td>{{ paciente.variable.name }}</td>
+                            <td>{{ paciente.nombre }}</td>
+                            <td>{{ paciente.edad }}</td>
+                            <td>{{ paciente.cc }}</td>
+                            <td>{{ paciente.genero }}</td>
+                            <td>{{ paciente.estatura }}</td>
+                            <td>{{ paciente.peso }}</td>
+                            <td>{{ paciente.rh }}</td>
+                            <td>{{ paciente.dateTime }}</td>
                         </tr>
                         {% endfor %}
 
@@ -62,5 +70,6 @@
         </div>
     </div>
 </div>
+
 
 {% endblock %}
