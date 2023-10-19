@@ -1,77 +1,77 @@
 {
     "activos": [
         {
-            "tipo": "Activo",
+            "variable": 5,
             "nombre": "Maquina Rayos-X",
-            "valor": 15000.0,
+            "valor": 15000,
             "moneda": "USD",
             "cantidad": 1
         },
         {
-            "tipo": "Activo",
+            "variable": 5,
             "nombre": "Camilla",
-            "valor": 500.0,
+            "valor": 500,
             "moneda": "USD",
             "cantidad": 30
         },
         {
-            "tipo": "Activo",
+            "variable": 5,
             "nombre": "Ambulancia",
-            "valor": 10000.0,
+            "valor": 10000,
             "moneda": "USD",
             "cantidad": 7
         },
         {
-            "tipo": "Activo",
+            "variable": 5,
             "nombre": "Monitor Cardiaco",
-            "valor": 3000.0,
+            "valor": 3000,
             "moneda": "USD",
             "cantidad": 10
         },
         {
-            "tipo": "Activo",
+            "variable": 5,
             "nombre": "Respirador Artificial",
-            "valor": 12000.0,
+            "valor": 12000,
             "moneda": "USD",
             "cantidad": 8
         },
         {
-            "tipo": "Activo",
+            "variable": 5,
             "nombre": "Estetoscopio",
-            "valor": 100.0,
+            "valor": 100,
             "moneda": "USD",
             "cantidad": 50
         },
         {
-            "tipo": "Activo",
+            "variable": 5,
             "nombre": "Microscopio",
             "valor": 2500.0,
             "moneda": "USD",
             "cantidad": 6
         },
         {
-            "tipo": "Activo",
+            "variable": 5,
             "nombre": "Equipo de Ultrasonido",
             "valor": 8000.0,
             "moneda": "USD",
             "cantidad": 4
         },
         {
-            "tipo": "Activo",
+            "variable": 5,
             "nombre": "Mesa Quirúrgica",
             "valor": 6000.0,
             "moneda": "USD",
             "cantidad": 3
         },
         {
-            "tipo": "Activo",
+            "variable": 5,
             "nombre": "Lámpara Quirúrgica",
             "valor": 3500.0,
             "moneda": "USD",
             "cantidad": 5
         },
         {
-            "tipo": "Activo",
+            "variable": 5,
             "nombre": "Equipo de Anestesia",
             "valor": 10000.0,
             "moneda": "USD",
